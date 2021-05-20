@@ -1,0 +1,351 @@
+#title{
+  background-color: rgb(13, 141, 141);
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+  color: #fff;
+}
+
+mark.blue{
+  color: rgb(34, 37, 247);
+  background-color: transparent;
+}
+
+mark.red{
+  color: rgb(247, 34, 34);
+  background-color: transparent;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+h2{
+ font-family:inherit;
+ font-size: 3rem;
+ line-height: 1.5;
+}
+
+h3{
+font-weight: bold;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.navbar-brand{
+  font-family: serif;  font-size: 3rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: serif;
+}
+
+.download-button{
+  background-color: rgb(59, 187, 87);
+  margin: 3% 5% 3% 0;
+}
+
+.download-button:hover{
+  background-color: rgb(19, 150, 69);
+  transition: 0.5s ease;
+}
+
+.title-image{
+  width:60%;
+  height:100%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:20%;
+}
+
+#features{
+  padding: 10% 15%;
+  background-color: rgb(13, 141, 141);
+  position: relative;
+}
+
+
+
+#features1{
+  
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 7%;
+  
+  background-color: rgb(120, 175, 166);
+  position: relative;
+}
+
+.feature-box1{
+  padding: 1%;
+  margin-right: 1%;
+  margin-bottom: 60px;
+  background-color: rgb(45, 224, 200);
+  box-shadow: 0.1rem 0.1rem 0.3rem 0.3rem  rgb(114, 131, 129);
+  border-radius: 0.25rem;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.feature-box{
+  margin: 2%;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem rgb(17, 129, 129);
+  background-color: rgb(30, 211, 211);
+  text-align: center;
+}
+
+.feature-box:hover{
+  background-color: rgb(250, 214, 250) ;
+  transition: 0.5s ease;
+}
+
+.icon{
+  color:#8b453a;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#159496;
+    color: #fff;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius:50%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 30px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    background-color: rgb(123, 221, 190);
+    text-align: center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+
+@media (max-width:1000px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Faq */
+.faq-box{
+  background-color:rgb(184, 180, 180) ;
+  padding: 10px;
+}
+
+.faq{
+  
+  background-color: rgb(138, 87, 138);
+  border-radius: 0.5rem;
+  box-shadow: 1rem 0.5rem 1rem 0.5rem rgb(141, 140, 140);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+ .accordion:hover {
+  background-color: rgb(99, 214, 157); 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+
+#cta{
+  background-color:#4e7172;
+    text-align: center;
+    padding:7% 15% 1%;
+    color:#fff;
+
+}
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#bbc3c4;
+}
+.icons{
+    
+    padding: 20px;
+    color: #2d4b44;
+    
+    
+}
+
+.icons:hover{
+  color: #c96b5c;
+  transition: 0.5s ease;
+}
+
+/* newsletter */
+
+.footer-newsletter {
+  padding: 5%;
+  background: #87bdb5;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer-newsletter input{
+  margin: 10px;
+  border-radius: 0.2rem;
+  box-shadow: 0.25rem 0.3rem 0.25rem 0.3rem #355b5e;
+  background-color: #53a7f7;
+}
+
+/* doctors */
+
+.testimonials{
+  padding-top: 20px;
+}
+
+.shadow-effect {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+border:1px solid #ECECEC;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+#customers-testimonials .shadow-effect p {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 17px 0;
+  font-weight: 300;
+}
+.testimonial-name {
+  margin: -17px auto 0;
+  display: table;
+  width: auto;
+  background: #3190E7;
+  padding: 9px 35px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+#customers-testimonials .item {
+  text-align: center;
+  padding: 50px;
+  margin-bottom:80px;
+  opacity: .2;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+  opacity: 1;
+  -webkit-transform: scale3d(1.0, 1.0, 1);
+  transform: scale3d(1.0, 1.0, 1);
+}
+.owl-carousel .owl-item img {
+  transform-style: preserve-3d;
+  max-width: 90px;
+  margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #3190E7;
+  transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+  background: #3190E7;
+  display: inline-block;
+  height: 20px;
+  margin: 0 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+}
+
+/* contacts */
+.contact{
+  background-color: rgb(130, 212, 245);
+  padding: 5%;
+  font-weight: 600;
+  border-radius: 0.5rem;
+} 
+
+.contact .section-title{
+  text-align: center;
+  background-color: rgb(89, 201, 221);
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 1px 1px rgb(67, 104, 126);
+
+}
+
+.contact button{
+  border-radius: 0.2rem;
+  box-shadow: 0.25rem 0.3rem 0.25rem 0.3rem #32545a;
+  background-color: #53a7f7;
+}
+
